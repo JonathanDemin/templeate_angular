@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { JsonplaceholderService } from '../apiServices/jsonplaceholder.service';
+import { JsonplaceholderService } from '../apiService/jsonplaceholder.servicio';
 
 @Component({
   selector: 'app-services',
-  templateUrl: './services.component.html',
-  styleUrls: ['./services.component.css']
+  templateUrl: './servicio.component.html',
+  styleUrls: ['./servicio.component.css']
 })
-export class ServicesComponent {
+export class ServicioComponent {
   posts:any = [];
   
   constructor(private jsonplaceholderService: JsonplaceholderService){

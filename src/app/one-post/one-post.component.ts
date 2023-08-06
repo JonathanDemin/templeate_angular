@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { JsonplaceholderService } from '../apiServices/jsonplaceholder.service';
+import { JsonplaceholderService } from '../apiService/jsonplaceholder.servicio';
+
 import { ActivatedRoute, ParamMap } from '@angular/router';
 
 @Component({
